@@ -3,6 +3,7 @@
 body {
     background-color: #1f2937;
     font-family: sans-serif;
+ 
 
 }
 
@@ -12,14 +13,12 @@ body {
 font-size: 24px;
 color: #f9faf8;
 font-weight: bold;
-display: flex;
-justify-content: start;
 }
 
 .links {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    align-items: center;
     gap: 10px;
     color: #E5E7EB;
 }
@@ -28,6 +27,7 @@ justify-content: start;
 .header{
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
-    padding-top: 5px;
+    flex-direction: row;
+    padding-top: px;
+    flex: 1;
 }
