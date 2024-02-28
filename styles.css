@@ -3,7 +3,18 @@
   margin: 0;  
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   box-sizing: border-box;
+  
 }
+body {
+
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -32,57 +43,70 @@ header {
 
 .hero {
     display: flex;
-    flex: 2;
-    justify-content: center;
-    align-items:center;
-    gap: 10px;
+    justify-content: space-around;
+  
     background-color: #1f2937;
     height: 500px;
     width: 100%;
-    padding: 10px;
+    padding: 0;
+    gap: 150px;
     
     
 }
 
-.hero-text{
+.hero-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: ;
+    gap: 100px;
+}
+
+.hero-text-container {
+
+    display: flex;
     justify-content: center;
-    align-items: start;
-    height: 400px;
-    width: 500px;
-    gap: 10px;
+}
+.hero-text{
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   height: auto;
+   width: 500px;
 
 
 }
 
 .hero-main {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: bolder;
-    text-wrap: wrap
-
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
 }
 
 .hero-two {
     font-size: 18px;
     color: #e5e7eb;
-    text-wrap: wrap;   
+    text-wrap: wrap;
 }
+
  button{
 
  }
 
+ .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
  .img {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 300px;
     width: 500px;
     background-color: #737a83;
     color: #e5e7eb;
     border-radius: 5px;
-    margin-left: 145px;
 
  }
 footer {
