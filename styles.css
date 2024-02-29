@@ -13,17 +13,19 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
     background-color: #1f2937;
     height: 40px;
     width: 100%;
     padding-bottom: 10px;
+    padding: 0px 250px;
+
 }
 
 .logo{
@@ -43,70 +45,61 @@ header {
 
 .hero {
     display: flex;
-    justify-content: space-around;
-  
     background-color: #1f2937;
     height: 500px;
     width: 100%;
-    padding: 0;
-    gap: 150px;
+    padding: 0px 250px;
+    justify-content: space-between;
+    align-items: center;
     
-    
 }
 
-.hero-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: ;
-    gap: 100px;
-}
-
-.hero-text-container {
-
-    display: flex;
-    justify-content: center;
-}
 .hero-text{
    display: flex;
-   flex-direction:column;
-   justify-content: center;
-   height: auto;
+   flex-direction: column;
    width: 500px;
-
-
+   line-height: 1.4;
 }
 
-.hero-main {
-  font-size: 48px;
-  color: #f9faf8;
-  font-weight: bolder;
+h1 {
+    font-size: 48px; 
+    font-weight: bolder;
+    color: #f9faf8; 
 }
 
-.hero-two {
-    font-size: 18px;
+.hero-secondary {
+    font-size: 18px; 
+    color: #e5e7eb; 
+}
+
+button {
+    background-color: #3882f6;
     color: #e5e7eb;
-    text-wrap: wrap;
+    width: 80px;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 10x;
+
 }
-
- button{
-
- }
 
  .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
- }
-
- .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 500px;
     background-color: #737a83;
     color: #e5e7eb;
     border-radius: 5px;
+    width: 500px;
+    height: 300px;
+ }
+
+ .img {
+    
+    
 
  }
 footer {
